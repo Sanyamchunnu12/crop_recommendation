@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section class="slider">
+    <div class="slides">
+        <div class="slide"><img src="{{ url_for('static', filename='images/slider1.png') }}" alt="Slide 1"></div>
+    </div>
+</section>
+
+<section class="intro">
+    <h2>Welcome to SMART AGRO</h2>
+    <p>Empowering farmers with technology for a sustainable future.</p>
+</section>
+{% endblock %}
